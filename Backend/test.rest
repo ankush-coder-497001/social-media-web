@@ -1,0 +1,30 @@
+# POST http://localhost:4000/User/register
+# content-type: application/json
+
+# {
+#       "name":"ansh gupta",
+#     "username":"anku123@",
+#     "email":"ankushgup99@gmail.com",
+#     "password":"1212"
+# }
+
+# POST http://localhost:4000/User/login
+# content-type: application/json
+
+# {
+    
+#     "email":"ankushgupta99@gmail.com",
+#     "password":"121212"
+# }
+# POST http://localhost:4000/Post/createPost/66629f8e422128971a405a2b
+# content-type: application/json
+
+# {
+#       "title":"im a web developer",
+#     "content":"creating good websites"
+# }
+GET  http://localhost:4000/User/findLoginUser/66629f8e422128971a405a2b
+content-type: application/json
+# GET  http://localhost:4000/Post/AllPost
+# content-type: application/json
+
